@@ -1,0 +1,232 @@
+:root{
+  background-image: url("https://res.cloudinary.com/dktlyda6o/image/upload/v1700243235/pexels-rafael-cosquiere-2064124_atoz2g.jpg");
+  --x: min(100vh,100vw);
+}
+
+.SignupBorder *{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.SignupBorder button,input {
+  margin: 0;
+  padding: 0;
+  border-radius: 0.1px;
+  background: none;
+  color: inherit;
+  line-height: normal;
+  text-align: inherit;
+}
+.SignupBorder{
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.ErrorMsg
+{
+  color:red;
+  font-size: 14px;
+}
+.LoginBorder *{
+  padding: 0;
+  margin: 0;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.LoginBorder button,input {
+    margin: 0;
+    padding: 0;
+    border-radius: 0.1px;
+    background: none;
+    color: inherit;
+    line-height: normal;
+    text-align: inherit;
+  }
+.LoginBorder{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(255, 255, 255);
+
+}
+
+.LoginBox{
+    width: 400px;
+    height: 80vh;
+    left: 900px;
+    opacity: 90%;
+
+}
+.LoginBoxTop{
+    height: 85%;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 1px solid rgba(128, 128, 128, 0);
+    background-color: rgb(255, 255, 255);
+    opacity: 120%;
+  }
+.LoginBoxBottom{
+  height: 11%;
+  width: 100%;
+  background-color:rgba(255, 255, 255, 0.779);
+  font-family: 'Roboto', sans-serif;
+}
+.LoginBoxBottom span{
+  color: blue;
+  cursor: pointer;
+}
+.LoginBoxTitle{
+  width: 100%;
+  height: 30%;
+}
+.LoginBoxTitle p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .LoginBoxTitle h2{
+    color: rgb(0, 0, 0);
+  }
+  .LoginForm{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .LoginForm input{
+    width: 90%;
+    height: 12%;
+    margin: 3% 5%;
+    border-bottom: 1px solid grey;
+    border-radius: 2px;
+    text-align: left;
+    text-indent: 10px;
+    font-size: 17px;
+  }
+  .LoginForm button{
+    width: 90%;
+    height: 12%;
+    margin: 5%;
+    border-radius: 2px;
+    border-radius: 5px;
+    text-align: left;
+    text-indent: 10px;
+    font-size: 18px;
+    background-color: rgb(0, 60, 255);
+    color: white;
+    cursor: pointer;
+  }
+  .LoginForm input:focus{
+    outline: none;
+}
+.LoginForm button:hover{
+  background-color:black;
+}
+.username{
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  width: 90%;
+  align-items: flex-start;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+};
+.ErrorMsg
+{
+  color:rgb(235, 70, 70);
+  font-size: 12px;
+}
+.SignupBox{
+  width: 400px;
+  height: 80vh;
+  left: 900px;
+}
+.SignupBoxTop{
+  height: 85%;
+  width: 100%;
+  font-weight: bolder;
+  background-image: url("https://res.cloudinary.com/dktlyda6o/image/upload/v1700243235/pexels-rafael-cosquiere-2064124_atoz2g.jpg");
+  font-size: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.582);
+  background-color: white;
+}
+.SignupBoxBottom{
+  height: 11%;
+  width: 100%;
+  
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.SignupBoxBottom span{
+  background-image: url("https://res.cloudinary.com/dktlyda6o/image/upload/v1700243235/pexels-rafael-cosquiere-2064124_atoz2g.jpg");
+  color: rgb(67, 67, 67);
+  cursor: pointer;
+}
+.SignupBoxTitle{
+  background-image: url("https://res.cloudinary.com/dktlyda6o/image/upload/v1700243235/pexels-rafael-cosquiere-2064124_atoz2g.jpg");
+  width: 90%;
+  height: 30%;
+}
+.SignupBoxTitle p{
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+.SignupBoxTitle h2{
+  color: rgb(0, 0, 0);
+}
+.SignupForm{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.SignupForm input{
+  width: 90%;
+  height: 12%;
+  margin: 3% 5%;
+  border: 2px solid grey;
+  border-radius: 2px;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 17px;
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  .SignupBox {
+      flex: 0 0 100%;
+  }
+}
+
+.SignupForm button{
+  width: 90%;
+  height: 12%;
+  margin: 5%;
+  border-radius: 2px;
+  border-radius: 5px;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 18px;
+  background-color: rgb(0, 60, 255);
+  color: white;
+  cursor: pointer;
+}
+.SignupForm input:focus{
+  outline: none;
+}
+.SignupForm button:hover{
+  background-color: rgb(0, 0, 0);
+}
